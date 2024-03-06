@@ -5,6 +5,7 @@ import {
 } from '@angular/platform-browser';
 import { NgFor } from '@angular/common';
 
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -14,7 +15,7 @@ import { TratamientosComponent } from './tratamientos/tratamientos.component';
 import { PreguntasComponent } from './preguntas/preguntas.component';
 import { FooterComponent } from './footer/footer.component';
 import { PromocionesComponent } from './promociones/promociones.component';
-import { ModalComponent } from './modal/modal.component';
+import { GaleryComponent } from './galery/galery.component';
 
 @NgModule({
   declarations: [
@@ -26,9 +27,9 @@ import { ModalComponent } from './modal/modal.component';
     PreguntasComponent,
     FooterComponent,
     PromocionesComponent,
-    ModalComponent,
+    GaleryComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, NgFor],
+  imports: [BrowserModule, AppRoutingModule, NgFor, BrowserAnimationsModule],
   providers: [provideClientHydration()],
   bootstrap: [AppComponent],
 })

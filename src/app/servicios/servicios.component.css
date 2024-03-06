@@ -47,7 +47,7 @@
 }
 .btn-close {
   position: absolute;
-  top: 0px;
+  top: 10px;
   right: 10px;
 }
 .btn-close i {
@@ -110,7 +110,7 @@
   }
   .btn-close {
     position: absolute;
-    top: 0px;
+    top: 10px;
     right: 10px;
     width: 15px;
     height: 15px;
