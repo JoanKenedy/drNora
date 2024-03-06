@@ -1,0 +1,27 @@
+<ng-template #contenido let-modal>
+  <button
+    class="close"
+    aria-label="close"
+    type="button"
+    (click)="modal.dismiss()"
+  >
+    <span aria-hidden="true">&times;</span>
+  </button>
+  <div class="modal-title">
+    <h6>¡Aprovecha de nuestras promociones!</h6>
+  </div>
+
+  <div class="container-promos">
+    <div class="item-promos">
+      <img src="assets/promo1.png" alt="" class="img-promo" />
+    </div>
+    <div class="item-promos">
+      <img src="assets/promo2.png" alt="" class="img-promo" />
+    </div>
+  </div>
+  <div class="modal-contacto">
+    <a href="https://api.whatsapp.com/send?phone=5620087550" target="_blank"
+      >Contacto</a
+    >
+  </div>
+</ng-template>

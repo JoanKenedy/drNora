@@ -82,6 +82,9 @@
   color: #fff;
   transition: all 0.7s;
 }
+.tratamientos button p {
+  margin: 0;
+}
 @media (min-width: 767px) {
   .tratamientos {
     background-color: #03a9a5;

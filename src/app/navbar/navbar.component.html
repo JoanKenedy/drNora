@@ -4,37 +4,48 @@
     <div class="fondo-menu" [ngClass]="collapsed ? 'openMenu2' : ''"></div>
     <ul class="menu" [ngClass]="collapsed ? 'openMenu' : ''">
       <li>
-        <a href=""
+        <a href="#nosotros" (click)="onMenu()"
           >Inicio
           <div class="line"></div>
         </a>
       </li>
       <li>
-        <a href=""
+        <a href="#nosotros" (click)="onMenu()"
           >Nosotros
           <div class="line"></div>
         </a>
       </li>
       <li>
-        <a href=""
+        <a href="#tratamientos" (click)="onMenu()"
           >Tratamientos
           <div class="line"></div>
         </a>
       </li>
       <li>
-        <a href=""
+        <a href="#servicios" (click)="onMenu()"
           >Servicios
           <div class="line"></div>
         </a>
       </li>
       <li>
-        <a href=""
+        <a href="#ubicacion" (click)="onMenu()"
           >Ubicación
           <div class="line"></div>
         </a>
       </li>
       <li>
-        <a href="" class="btn-especial">5512345412</a>
+        <a href="#promociones" (click)="onMenu()"
+          >Promociones
+          <div class="line"></div>
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://api.whatsapp.com/send?phone=5620087550"
+          target="_blank"
+          class="btn-especial"
+          >5512345412</a
+        >
       </li>
     </ul>
     <div class="btn-menu" (click)="onMenu()">

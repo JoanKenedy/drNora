@@ -90,10 +90,11 @@
     justify-content: center;
     margin-bottom: 0;
   }
-  .card-content span i {
+  .card-content .card-title {
+    color: #fff;
     font-size: 30px;
-    color: #03a9a5;
   }
+
   .card-reveal {
     background-color: #009092;
     padding: 20px;
@@ -111,9 +112,7 @@
     position: absolute;
     top: 0px;
     right: 10px;
-  }
-  .btn-close i {
-    font-size: 18px;
-    color: #fff;
+    width: 15px;
+    height: 15px;
   }
 }

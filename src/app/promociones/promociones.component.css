@@ -1,0 +1,37 @@
+.promociones {
+  width: 100%;
+}
+.promociones h2 {
+  color: #03a9a5;
+  font-weight: 700;
+  text-align: center;
+  font-size: 25px;
+  margin: 15px auto;
+}
+.container-promociones {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+}
+.item-promociones img {
+  max-width: 100%;
+}
+
+@media (min-width: 767px) {
+  .container-promociones {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .promociones h2 {
+    color: #03a9a5;
+    font-weight: 700;
+    text-align: center;
+    font-size: 42px;
+    margin: 15px auto;
+  }
+}

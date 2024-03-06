@@ -13,7 +13,8 @@ import { ServiciosComponent } from './servicios/servicios.component';
 import { TratamientosComponent } from './tratamientos/tratamientos.component';
 import { PreguntasComponent } from './preguntas/preguntas.component';
 import { FooterComponent } from './footer/footer.component';
-import { ModalComponent } from './modal/modal.component';
+import { ModalInicioComponent } from './modal-inicio/modal-inicio.component';
+import { PromocionesComponent } from './promociones/promociones.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ModalComponent } from './modal/modal.component';
     TratamientosComponent,
     PreguntasComponent,
     FooterComponent,
-    ModalComponent,
+    ModalInicioComponent,
+    PromocionesComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, NgFor],
   providers: [provideClientHydration()],
