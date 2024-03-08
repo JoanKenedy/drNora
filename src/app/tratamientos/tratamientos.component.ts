@@ -3,7 +3,6 @@ import { Component } from '@angular/core';
 interface Tratamientos {
   id: number;
   title: string;
-  imgSrc: string;
 }
 
 @Component({
@@ -16,11 +15,11 @@ export class TratamientosComponent {
   isTexto = true;
 
   Datos: Tratamientos[] = [
-    { id: 15, title: 'Coronas', imgSrc: 'coronas.svg' },
-    { id: 16, title: 'Limpieza', imgSrc: 'limpieza.svg' },
-    { id: 17, title: 'Estética Dental', imgSrc: 'sonrisa.svg' },
-    { id: 18, title: 'Cirugía oral y Maxilofacial', imgSrc: 'boca.svg' },
-    { id: 19, title: 'Periodoncia', imgSrc: 'cena.svg' },
+    { id: 15, title: 'Ortodoncia' },
+    { id: 16, title: 'Prótesis' },
+    { id: 17, title: 'Periodoncia' },
+    { id: 18, title: 'Odontopediatría' },
+    { id: 19, title: 'Cirugía Oral' },
   ];
 
   showServices() {

@@ -16,6 +16,7 @@ import { PreguntasComponent } from './preguntas/preguntas.component';
 import { FooterComponent } from './footer/footer.component';
 import { PromocionesComponent } from './promociones/promociones.component';
 import { GaleryComponent } from './galery/galery.component';
+import { InicioComponent } from './inicio/inicio.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { GaleryComponent } from './galery/galery.component';
     FooterComponent,
     PromocionesComponent,
     GaleryComponent,
+    InicioComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, NgFor, BrowserAnimationsModule],
   providers: [provideClientHydration()],
