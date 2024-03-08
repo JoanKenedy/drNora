@@ -2,9 +2,6 @@
   width: 100%;
   height: auto;
   position: relative;
-  background-image: url(/assets/fondo-hero.png);
-  background-size: cover;
-  background-position: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -25,11 +22,16 @@
   margin-bottom: 10px;
 }
 .item-hero p {
-  color: #fff;
+  color: #8c8c8c;
   font-size: 15px;
   text-align: justify;
   margin-top: 10px;
   width: 100%;
+}
+.resalto {
+  color: #00cbcc;
+  font-size: 18px;
+  font-weight: 700;
 }
 
 @media (min-width: 767px) {
@@ -37,10 +39,10 @@
     width: 100%;
     height: auto;
     position: relative;
-    top: 0;
+    top: 50px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 0px 80px;
+    padding: 20px 50px;
   }
   .item-hero {
     width: 100%;
@@ -54,18 +56,27 @@
   }
 
   .item-hero:nth-child(2) img {
-    max-width: 100%;
+    max-width: 80%;
     margin-bottom: 0;
   }
   .item-hero h1 {
-    color: #fff;
     font-size: 45px;
     padding-top: 20px;
   }
   .item-hero p {
-    color: #fff;
     font-size: 17px;
     text-align: justify;
     margin-top: 10px;
+  }
+}
+@media (min-width: 1300px) {
+  .hero {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px 50px;
   }
 }
