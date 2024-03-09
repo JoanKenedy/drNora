@@ -17,6 +17,9 @@ import { FooterComponent } from './footer/footer.component';
 import { PromocionesComponent } from './promociones/promociones.component';
 import { GaleryComponent } from './galery/galery.component';
 import { InicioComponent } from './inicio/inicio.component';
+import { RemocionAmalgamasComponent } from './remocion-amalgamas/remocion-amalgamas.component';
+import { HomeComponent } from './home/home.component';
+import { RemocionesComponent } from './remociones/remociones.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +33,9 @@ import { InicioComponent } from './inicio/inicio.component';
     PromocionesComponent,
     GaleryComponent,
     InicioComponent,
+    RemocionAmalgamasComponent,
+    HomeComponent,
+    RemocionesComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, NgFor, BrowserAnimationsModule],
   providers: [provideClientHydration()],
