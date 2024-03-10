@@ -10,6 +10,15 @@ export class ServiciosComponent implements OnInit {
   constructor(private router: Router) {}
   ngOnInit(): void {}
   amalgamas() {
-    this.router.navigate(['remocion']);
+    this.router.navigate(['remocion-amalgamas']);
+  }
+  ozonoterapia() {
+    this.router.navigate(['ozonoterapia-dental']);
+  }
+  blanqueamiento() {
+    this.router.navigate(['blanqueamiento-ozono']);
+  }
+  laser() {
+    this.router.navigate(['laser-terapeutico']);
   }
 }
