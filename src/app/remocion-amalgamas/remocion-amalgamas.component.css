@@ -32,6 +32,10 @@
   font-size: 17px;
   font-weight: 600;
 }
+.arriba {
+  top: 0;
+  transition: 0.7s;
+}
 @media (min-width: 767px) {
   .container-amalgamas {
     width: 100%;
@@ -46,7 +50,7 @@
     font-weight: 700;
     text-align: center;
     font-size: 32px;
-    margin: 12px auto;
+    margin: 40px auto 20px auto;
   }
   .container-item-amalgamas {
     width: 80%;

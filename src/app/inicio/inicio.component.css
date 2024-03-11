@@ -22,17 +22,15 @@
   text-align: center;
 }
 .img-container {
-  width: 100%;
-  height: 100%;
+  width: 300px;
+  height: 300px;
   object-fit: cover;
 }
 .img-container img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  max-width: 100%;
   border-radius: 50%;
-  margin: 10px auto;
 }
 .inicio span {
   width: 100%;

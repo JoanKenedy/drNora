@@ -1,1 +1,41 @@
-<p>ozonoterapia-dental works!</p>
+<div class="container-amalgamas">
+  <h2>Ozonoterapia Dental</h2>
+  <div class="container-item-amalgamas">
+    <div class="item-amalgmas">
+      <p>
+        <span class="resaltar">El ozono</span>
+        es un gas presente en la atmósfera en forma natural, cuya molécula tiene
+        tres átomos de oxígeno en lugar de los dos del oxígeno común; su fórmula
+        química es O3.
+      </p>
+
+      <p>
+        El ozono médico utilizado en los procedimientos dentales es una
+        <span class="resaltar">combinación de oxígeno</span> (99.5%) y ozono
+        (0.5%) que se obtiene artificialmente con oxígeno medicinal.
+      </p>
+      <p>
+        Tiene <span class="resaltar">propiedades antisépticas</span> (elimina
+        bacterias, virus y hongos), analgésicas y antiinflamatorias, estimula al
+        sistema inmunológico y mejora la circulación periférica y la oxigenación
+        de los tejidos.
+      </p>
+    </div>
+    <div class="item-amalgmas">
+      <h6>Beneficios de la Ozonoterapia Dental</h6>
+      <a href="assets/ozono.pdf">
+        <img src="assets/ozono-1.png" class="elite" />
+      </a>
+
+      <button (click)="imagen()">Ver Imagen</button>
+      <div class="modal-imagen" [ngClass]="image ? 'openModal' : ''">
+        <span (click)="imgCerrar()">
+          <i class="fa-solid fa-circle-xmark"></i>
+        </span>
+        <div class="container-img">
+          <img src="assets/ozono-1.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

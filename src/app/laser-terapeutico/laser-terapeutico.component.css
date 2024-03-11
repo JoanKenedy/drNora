@@ -1,0 +1,116 @@
+.container-amalgamas {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 12px;
+}
+.container-amalgamas h2 {
+  color: #03a9a5;
+  font-weight: 700;
+  text-align: center;
+  font-size: 32px;
+  margin: 12px auto;
+}
+.text-center {
+  text-align: center;
+}
+.container-item-amalgamas {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+}
+.item-amalgmas img {
+  max-width: 100%;
+}
+.item-amalgmas p {
+  font-size: 14px;
+  text-align: justify;
+  margin: 7px auto;
+}
+.resaltar {
+  color: #03a9a5;
+  font-size: 17px;
+  font-weight: 600;
+}
+.item-amalgmas ul li {
+  font-size: 14px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+.item-amalgmas ul li img {
+  width: 14px;
+  height: 14px;
+  margin: 0;
+}
+.item-amalgmas ul li p {
+  margin: 0;
+}
+.laser {
+  max-width: 100%;
+  width: 250px;
+  height: 330px;
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+@media (min-width: 767px) {
+  .container-amalgamas {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 12px;
+  }
+  .container-amalgamas h2 {
+    color: #03a9a5;
+    font-weight: 700;
+    text-align: center;
+    font-size: 32px;
+    margin: 40px auto 20px auto;
+  }
+  .container-item-amalgamas {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+  .item-amalgmas img {
+    display: block;
+    max-width: 100%;
+    margin: 5px auto;
+  }
+  .item-amalgmas p {
+    font-size: 16px;
+    text-align: justify;
+    margin: 7px auto;
+  }
+  .resaltar {
+    color: #03a9a5;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .item-amalgmas:nth-child(3) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .item-amalgmas:nth-child(2) img {
+    width: 370;
+    height: 400px;
+  }
+  .item-amalgmas:nth-child(3) img {
+    display: inline-flex;
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    margin: auto;
+    text-align: center;
+  }
+}

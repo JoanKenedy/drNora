@@ -63,6 +63,11 @@
 .sub-item-footer p {
   text-align: center;
 }
+.sub-item-footer span {
+  color: #d3d7d7;
+  text-align: center;
+  font-size: 10px;
+}
 @media (min-width: 767px) {
   .footer {
     width: 100%;
@@ -127,6 +132,5 @@
   }
   .footer-footer .sub-item-footer2 p {
     text-align: center;
-    color: #fff;
   }
 }

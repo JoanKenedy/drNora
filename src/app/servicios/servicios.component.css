@@ -27,14 +27,14 @@
 }
 
 .card-title h2 {
-  text-align: left;
+  text-align: center;
   font-size: 18px;
   margin: 5px 0px;
   color: #03a9a5;
   font-weight: 500;
 }
 .card-title p {
-  text-align: left;
+  text-align: center;
   margin: 2px auto;
   font-size: 14px;
   color: black;
@@ -89,14 +89,14 @@
   }
 
   .card-title h2 {
-    text-align: left;
+    text-align: center;
     font-size: 22px;
     margin: 5px 0px;
     color: #03a9a5;
     font-weight: 500;
   }
   .card-title p {
-    text-align: left;
+    text-align: center;
     margin: 2px auto;
     font-size: 16px;
     color: black;
