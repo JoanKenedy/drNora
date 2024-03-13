@@ -36,6 +36,38 @@
   top: 0;
   transition: 0.7s;
 }
+.img-amalgamas {
+  text-align: center;
+}
+.img-amalgamas img {
+  width: 282px;
+  height: 332px;
+  object-fit: cover;
+  text-align: center;
+}
+.caja-video {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+}
+.item-video img {
+  max-width: 100%;
+}
+.item-video:nth-child(1) {
+  height: 0px;
+  width: 100%;
+  max-width: 560px; /* Así establecemos el ancho máximo (si lo queremos) */
+  padding-top: 56.25%; /* Relación: 16/9 = 56.25% */
+  position: relative;
+}
+.item-video:nth-child(1) iframe {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+}
 @media (min-width: 767px) {
   .container-amalgamas {
     width: 100%;
@@ -89,6 +121,21 @@
     height: 250px;
     object-fit: cover;
     margin: auto;
+    text-align: center;
+  }
+  .caja-video {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .img-amalgamas {
+    display: flex;
+  }
+  .img-amalgamas img {
+    width: 282px;
+    height: 332px;
+    object-fit: cover;
     text-align: center;
   }
 }
