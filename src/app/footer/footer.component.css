@@ -60,17 +60,25 @@
   text-align: center;
   margin: 0;
 }
+.sub-item-footer h5 {
+  margin: 0 auto;
+  text-align: center;
+}
 .sub-item-footer p {
   text-align: center;
 }
 .sub-item-footer span {
   color: #d3d7d7;
   text-align: center;
-  font-size: 10px;
+  font-size: 9px;
 }
-.date {
-  width: 10px;
-  height: 10px;
+.codigos i {
+  font-size: 9px;
+  color: #d3d7d7;
+}
+.p-1 {
+  font-size: 16px;
+  font-weight: 500;
 }
 @media (min-width: 767px) {
   .footer {
@@ -136,5 +144,12 @@
   }
   .footer-footer .sub-item-footer2 p {
     text-align: center;
+  }
+  .p-1 {
+    font-size: 20px !important;
+    font-weight: 400;
+  }
+  .p-2 {
+    font-size: 25px;
   }
 }
