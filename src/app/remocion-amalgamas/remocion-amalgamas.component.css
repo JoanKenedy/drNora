@@ -11,13 +11,13 @@
   font-weight: 700;
   text-align: center;
   font-size: 32px;
-  margin: 12px auto;
+  margin: 5px auto;
 }
 .container-item-amalgamas {
   width: 90%;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  gap: 20px;
+  gap: 0px;
 }
 .item-amalgmas img {
   max-width: 100%;
@@ -75,7 +75,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 12px;
+    gap: 7px;
+    margin-bottom: 5px;
   }
   .container-amalgamas h2 {
     color: #03a9a5;
@@ -88,7 +89,7 @@
     width: 80%;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    gap: 20px;
+    gap: 0px;
   }
   .item-amalgmas img {
     display: block;
