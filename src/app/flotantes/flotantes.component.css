@@ -1,0 +1,22 @@
+.container-flotantes {
+  width: 100%;
+}
+.container-flotantes a {
+  position: fixed;
+  right: 20px;
+  z-index: 10;
+  bottom: 0;
+}
+.container-flotantes a img {
+  width: 55px;
+  height: 55px;
+  object-fit: cover;
+}
+
+@media (min-width: 767px) {
+  .container-flotantes a img {
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+  }
+}

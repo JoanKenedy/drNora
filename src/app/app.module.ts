@@ -19,9 +19,10 @@ import { GaleryComponent } from './galery/galery.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { RemocionAmalgamasComponent } from './remocion-amalgamas/remocion-amalgamas.component';
 import { HomeComponent } from './home/home.component';
-import { OzonoterapiaDentalComponent } from './ozonoterapia-dental/ozonoterapia-dental.component';
+
 import { BlanqueamientoOzonoComponent } from './blanqueamiento-ozono/blanqueamiento-ozono.component';
 import { LaserTerapeuticoComponent } from './laser-terapeutico/laser-terapeutico.component';
+import { FlotantesComponent } from './flotantes/flotantes.component';
 
 @NgModule({
   declarations: [
@@ -37,9 +38,9 @@ import { LaserTerapeuticoComponent } from './laser-terapeutico/laser-terapeutico
     InicioComponent,
     RemocionAmalgamasComponent,
     HomeComponent,
-    OzonoterapiaDentalComponent,
     BlanqueamientoOzonoComponent,
     LaserTerapeuticoComponent,
+    FlotantesComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, NgFor, BrowserAnimationsModule],
   providers: [provideClientHydration()],
