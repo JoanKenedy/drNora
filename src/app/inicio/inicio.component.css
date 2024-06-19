@@ -1,107 +1,19 @@
 .inicio {
   width: 100%;
-  height: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  background-image: url(/assets/fondo-hero.png);
-  background-size: cover;
-  background-position: center;
-  padding-top: 20px;
 }
-.item-inicio:nth-child(1) {
-  padding: 0px 30px;
+.portada-compu {
+  display: none;
+}
+.portada-mobil {
+  max-width: 100%;
 }
 
-.item-inicio h1 {
-  font-size: 35px;
-  color: #fff;
-  font-weight: 600;
-  margin: 0;
-  text-align: center;
-}
-.img-container {
-  width: 300px;
-  height: 300px;
-  object-fit: cover;
-}
-.img-container img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 50%;
-}
-.inicio span {
-  width: 100%;
-  display: block;
-  background-color: #00cbcc;
-  margin-top: 12px;
-  padding: 10px 8px;
-  color: #fff;
-  text-align: center;
-  font-size: 15px;
-}
 @media (min-width: 767px) {
-  .inicio {
-    width: 100%;
-    height: auto;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    background-image: url(/assets/fondo-hero.png);
-    background-size: cover;
-    background-position: center;
-    padding: 20px 0px 0px 0px;
-    height: 500px;
-  }
-
-  .item-inicio:nth-child(1) {
-    padding: 0px 30px 0px 40px;
-    grid-column: 1/2;
-    text-align: center;
-    margin: auto;
-    margin-bottom: 15px;
-    width: 90%;
-  }
-  .img-container {
-    width: 450px;
-    height: 450px;
-    object-fit: cover;
-  }
-  .item-inicio:nth-child(2) {
-    grid-column: 2/3;
-    margin-bottom: 15px;
-    padding: 0px 40px 0px 30px;
-    width: 90%;
-  }
-
-  .item-inicio h1 {
-    font-size: 60px;
-    color: #fff;
-    font-weight: 700;
-    margin: 0;
-    text-align: center;
-  }
-
-  .img-container img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 50%;
-    margin: 10px auto;
-  }
-  .inicio span {
-    grid-column: 1/3;
-    width: 100%;
+  .portada-compu {
+    max-width: 100%;
     display: block;
-    background-color: #00cbcc;
-    margin-top: px;
-    padding: 20px 8px;
-    color: #fff;
-    text-align: center;
-    font-size: 25px;
-    font-weight: 500;
-    text-transform: uppercase;
+  }
+  .portada-mobil {
+    display: none;
   }
 }

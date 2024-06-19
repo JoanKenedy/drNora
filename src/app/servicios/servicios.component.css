@@ -62,11 +62,11 @@
 
 @media (min-width: 767px) {
   .wrapper-services {
-    width: 80%;
+    width: 88%;
     margin: 18px auto 25px auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 40px;
+    gap: 10px;
   }
 
   .card-container {
@@ -87,7 +87,7 @@
 
   .card-title h2 {
     text-align: center;
-    font-size: 22px;
+    font-size: 20px;
     margin: 5px 0px;
     color: #03a9a5;
     font-weight: 500;
