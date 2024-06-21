@@ -1,0 +1,25 @@
+<div
+  class="my-modal-promociones"
+  *ngIf="abrirModal == true"
+  [@animation]="{ value: 'visible' }"
+  (@animation.done)="onAnimationEnd($event)"
+>
+  <i class="fa-solid fa-xmark btn-modal" (click)="cerrarModal()"></i>
+  <div class="container-modal">
+    <h2>¡Aprovecha de nuestras promociones!</h2>
+    <div class="promos-container">
+      <div class="item-promos">
+        <img src="assets/promo-retiro.jpg" alt="" class="img-promo" />
+      </div>
+      <div class="item-promos">
+        <img src="assets/promo-limpieza.jpg" alt="" class="img-promo" />
+      </div>
+      <div class="item-promos">
+        <img src="assets/promo-laser.jpg" alt="" class="img-promo" />
+      </div>
+    </div>
+    <a href="https://api.whatsapp.com/send?phone=5620087550" target="_blank"
+      >Contacto</a
+    >
+  </div>
+</div>
