@@ -25,7 +25,7 @@ import { Component, OnInit } from '@angular/core';
     trigger('animation2', [
       transition(':leave', [
         style({ opacity: 1 }),
-        animate('50ms', style({ opacity: 0.8 })),
+        animate('1000ms', style({ opacity: 0.8 })),
       ]),
     ]),
   ],
