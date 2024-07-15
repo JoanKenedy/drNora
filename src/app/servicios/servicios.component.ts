@@ -9,6 +9,7 @@ import { Router } from '@angular/router';
 export class ServiciosComponent implements OnInit {
   constructor(private router: Router) {}
   ngOnInit(): void {}
+
   amalgamas() {
     this.router.navigate(['remocion-amalgamas']);
   }
@@ -20,5 +21,8 @@ export class ServiciosComponent implements OnInit {
   }
   laser() {
     this.router.navigate(['laser-terapeutico']);
+  }
+  neurofocal  () {
+    this.router.navigate(['neurofocal']);
   }
 }

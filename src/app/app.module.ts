@@ -25,6 +25,7 @@ import { LaserTerapeuticoComponent } from './laser-terapeutico/laser-terapeutico
 import { FlotantesComponent } from './flotantes/flotantes.component';
 import { ModalPromosComponent } from './modal-promos/modal-promos.component';
 import { OpinionesComponent } from './opiniones/opiniones.component';
+import { NeurofocalComponent } from './neurofocal/neurofocal.component';
 
 @NgModule({
   declarations: [
@@ -45,6 +46,7 @@ import { OpinionesComponent } from './opiniones/opiniones.component';
     FlotantesComponent,
     ModalPromosComponent,
     OpinionesComponent,
+    NeurofocalComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, NgFor, BrowserAnimationsModule],
   providers: [provideClientHydration()],
