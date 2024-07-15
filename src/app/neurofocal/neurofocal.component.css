@@ -1,0 +1,120 @@
+.container-neurofocal {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 12px;
+  }
+  .container-neurofocal h2 {
+    color: #03a9a5;
+    font-weight: 700;
+    text-align: center;
+    font-size: 32px;
+    margin: 12px auto;
+  }
+  .text-center {
+    text-align: center;
+  }
+  .container-item-neurofocal {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+  .item-neurofocal img {
+    max-width: 100%;
+  }
+  .item-neurofocal p {
+    font-size: 14px;
+    text-align: justify;
+    margin: 7px auto;
+  }
+  .resaltar {
+    color: #03a9a5;
+    font-size: 17px;
+    font-weight: 600;
+  }
+  .item-neurofocal ul li {
+    font-size: 14px;
+    display: flex;
+    justify-content: flex-start;
+  
+    gap: 10px;
+  }
+  .item-neurofocal ul li i {
+    margin-top: 5px;
+    color: #03a9a5;
+  }
+  .item-neurofocal ul li p {
+    margin: 0;
+  }
+  .neurofocal2 {
+    max-width: 100%;
+    width: 600px;
+    height: 577px;
+    text-align: center;
+    display: block;
+    margin: auto;
+  }
+  @media (min-width: 767px) {
+    .container-neurofocal {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-bottom: 12px;
+    }
+    .container-neurofocal h2 {
+      color: #03a9a5;
+      font-weight: 700;
+      text-align: center;
+      font-size: 32px;
+      margin: 40px auto 20px auto;
+    }
+    .container-item-neurofocal {
+      width: 80%;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 20px;
+    }
+    .item-neurofocal img {
+      display: block;
+      max-width: 100%;
+      margin: 5px auto;
+    }
+    .item-neurofocal p {
+      font-size: 16px;
+      text-align: justify;
+      margin: 7px auto;
+    }
+   
+
+    
+    .resaltar {
+      color: #03a9a5;
+      font-size: 20px;
+      font-weight: 600;
+
+    }
+    .item-neurofocal:nth-child(3) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .item-neurofocal:nth-child(2) img {
+      width: 370;
+      height: 400px;
+    }
+    .item-neurofocal:nth-child(3) img {
+      display: inline-flex;
+      width: 300px;
+      height: 250px;
+      object-fit: cover;
+      margin: auto;
+      text-align: center;
+    }
+  }
+  

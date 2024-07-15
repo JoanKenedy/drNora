@@ -7,7 +7,52 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding: 20px;
 }
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Cambiado para dispositivos móviles */
+  gap: 20px;
+  padding: 20px;
+  width: 100%; /* Ajuste para ocupar el ancho completo del contenedor padre */
+  background-color: white; /* Fondo blanco para contraste */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.service-item {
+  height: 200px;
+  text-align: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.service-icon {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.service-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.service-description {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Media query para dispositivos móviles */
+@media (max-width: 768px) {
+  .services-grid {
+    grid-template-columns: 1fr; /* Cambia a una columna en dispositivos móviles */
+  }
+}
+
 .tratamientos h2 {
   color: #fff;
   font-weight: 700;
@@ -42,6 +87,23 @@
 .item-tratamientos .sub-item li p {
   font-size: 20px;
   color: #fff;
+}
+a {
+  color: inherit; /* Hereda el color del texto de su contenedor */
+  text-decoration: none; /* Elimina el subrayado */
+}
+.alert-box {
+  height: 100%;
+    padding: 20px;
+    background-color: #03a9a6ab;
+    color: rgb(0, 0, 0);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex; /* Convertir el contenedor a flexbox */
+    align-items: center; /* Alinear verticalmente */
+    justify-content: center; /* Alinear horizontalmente */
+    text-align: center; /* Alinear el texto dentro del elemento */
+    font-size: small;
 }
 
 @media (min-width: 767px) {
@@ -79,4 +141,72 @@
     font-size: 28px;
     color: #fff;
   }
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Cambiado a 3 columnas fijas */
+    gap: 20px;
+    padding: 20px;
+    width: 80%; /* Ajusta el ancho según tu diseño */
+    margin: 20px auto; /* Centrado horizontalmente con margen */
+    background-color: white; /* Fondo blanco para contraste */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  a {
+    color: inherit; /* Hereda el color del texto de su contenedor */
+    text-decoration: none; /* Elimina el subrayado */
+  }
+  .alert-box {
+    padding: 20px;
+    background-color: #03a9a6ab; /* Color de fondo del aviso */
+    color: rgb(0, 0, 0); /* Color del texto */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    text-align: center; /* Centrar texto */
+    font-size: small;
+  }
+  
+  .alert-box p {
+    margin: 0; /* Eliminar margen del párrafo */
+    font-size: 18px; /* Tamaño de fuente del texto */
+  }
+  
+  .alert-box a {
+    color: #ffc107; /* Color del enlace dentro del aviso */
+    text-decoration: underline; /* Subrayado del enlace */
+  }
+  
+  .alert-box:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada al pasar el mouse */
+    transform: translateY(-2px); /* Desplazamiento hacia arriba */
+  }
+  
+  .service-item {
+    height: 200px;
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .service-item:hover {
+    transform: translateY(-5px); /* Desplaza el elemento hacia arriba */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Añade una sombra más pronunciada */
+  }
+  .service-icon {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .service-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .service-description {
+    font-size: 16px;
+    color: #666;
+  }
+  
+
 }
