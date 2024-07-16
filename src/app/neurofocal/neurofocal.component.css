@@ -32,7 +32,7 @@
   }
   .resaltar {
     color: #03a9a5;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 600;
   }
   .item-neurofocal ul li {
@@ -50,12 +50,18 @@
     margin: 0;
   }
   .neurofocal2 {
-    max-width: 100%;
-    width: 600px;
-    height: 577px;
-    text-align: center;
-    display: block;
-    margin: auto;
+    max-width: 100%; /* Asegura que la imagen no se desborde del contenedor */
+    width: 90%; /* Ocupa el 45% del ancho disponible dentro del contenedor */
+    height: auto; /* Ajusta automáticamente la altura según el ancho */
+    display: inline-block; /* Hace que la imagen se muestre en línea */
+    border-radius: 1rem;
+    margin: 10px; /* Espacio entre las imágenes */
+    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    box-sizing: border-box; /* Incluye el padding y el borde en el ancho y alto total */
+    vertical-align: top; /* Alinea las imágenes en la parte superior */
+  }
+  .container-img{
+    text-align: center; 
   }
   @media (min-width: 767px) {
     .container-neurofocal {
@@ -79,11 +85,21 @@
       grid-template-columns: repeat(1, 1fr);
       gap: 20px;
     }
-    .item-neurofocal img {
-      display: block;
-      max-width: 100%;
-      margin: 5px auto;
+    .container-img{
+      text-align: center; 
     }
+
+    .neurofocal2 {
+      max-width: 100%; /* Asegura que la imagen no se desborde del contenedor */
+      width: 45%; /* Ocupa el 45% del ancho disponible dentro del contenedor */
+      height: auto; /* Ajusta automáticamente la altura según el ancho */
+      display: inline-block; /* Hace que la imagen se muestre en línea */
+      border-radius: 1rem;
+      margin: 10px; /* Espacio entre las imágenes */
+      box-shadow: 0 10px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+      box-sizing: border-box; /* Incluye el padding y el borde en el ancho y alto total */
+      vertical-align: top; /* Alinea las imágenes en la parte superior */
+  }
     .item-neurofocal p {
       font-size: 16px;
       text-align: justify;
