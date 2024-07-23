@@ -8,6 +8,7 @@
   align-items: center;
   top: 0;
 }
+
 .item-hero {
   width: 90%;
 }
@@ -22,7 +23,7 @@
   width: 300px;
   height: 300px;
   object-fit: cover;
-  border-radius: 50%;
+  border-radius: 4%;
 }
 .item-hero h1 {
   color: #fff;
@@ -54,6 +55,7 @@
     padding: 20px 50px 10px auto;
     margin-bottom: 30px;
   }
+
   .item-hero {
     width: 100%;
   }
@@ -71,7 +73,7 @@
     width: 400px;
     height: 400px;
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: 4%;
   }
   .item-hero h1 {
     font-size: 45px;

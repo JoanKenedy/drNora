@@ -7,7 +7,7 @@
   flex-direction: column;
 }
 .container-promociones {
-  width: 90%;
+  width: 70%;
   position: relative;
   margin: 0px auto 10px auto;
   display: flex;
@@ -27,7 +27,8 @@
 .item-promociones img {
   max-width: 100%;
   box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.5);
-}
+} 
+
 
 @media (min-width: 900px) {
   .promociones {
@@ -38,7 +39,7 @@
     align-items: center;
   }
   .container-promociones {
-    width: 95%;
+    /* width: 70%; */
     position: relative;
     margin: 15px auto 20px auto;
     display: flex;
@@ -47,11 +48,15 @@
     flex-direction: row;
   }
 
+
   .promociones h2 {
     font-weight: 700;
     text-align: center;
     font-size: 40px;
     margin: 8px auto 8px auto !important;
     color: #5e5e5e;
+  }
+  .especial{
+    width: 45%;
   }
 }

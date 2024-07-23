@@ -52,6 +52,9 @@
   font-weight: 600;
 }
 
+
+
+
 @media (min-width: 767px) {
   .container-modal h2 {
     color: white;
@@ -61,10 +64,11 @@
   }
   .promos-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
     margin: auto;
     text-align: center;
     gap: 9px;
   }
+ 
 }
