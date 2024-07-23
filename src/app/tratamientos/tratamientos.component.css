@@ -25,13 +25,22 @@
   height: 200px;
   text-align: center;
   padding: 20px;
-  background-color: #f0f0f0;
+  background-color: #f6f1de;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+ .correcionContacto{
+  height: 250px;
+  text-align: center;
+  padding: 25px;
+  background-color: #f6f1de;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 
 .service-icon {
+  margin-top: 25px;
   font-size: 36px;
   margin-bottom: 10px;
 }
@@ -95,16 +104,18 @@ a {
 .alert-box {
   height: 100%;
     padding: 20px;
-    background-color: #03a9a6ab;
+    background-color: #f5b9ae;
     color: rgb(0, 0, 0);
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    display: flex; /* Convertir el contenedor a flexbox */
     align-items: center; /* Alinear verticalmente */
     justify-content: center; /* Alinear horizontalmente */
     text-align: center; /* Alinear el texto dentro del elemento */
-    font-size: small;
+    font-size: 14px;
 }
+.imgIcono{
+  width: 60px;
+ }
 
 @media (min-width: 767px) {
   .tratamientos {
@@ -152,13 +163,17 @@ a {
     border-radius: 10px; /* Bordes redondeados */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
   }
+  .imgIcono{
+   width: 60px;
+  }
+
   a {
     color: inherit; /* Hereda el color del texto de su contenedor */
     text-decoration: none; /* Elimina el subrayado */
   }
   .alert-box {
     padding: 20px;
-    background-color: #03a9a6ab; /* Color de fondo del aviso */
+    background-color: #f5b9ae; /* Color de fondo del aviso */
     color: rgb(0, 0, 0); /* Color del texto */
     border-radius: 8px; /* Bordes redondeados */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
@@ -171,10 +186,6 @@ a {
     font-size: 18px; /* Tamaño de fuente del texto */
   }
   
-  .alert-box a {
-    color: #ffc107; /* Color del enlace dentro del aviso */
-    text-decoration: underline; /* Subrayado del enlace */
-  }
   
   .alert-box:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada al pasar el mouse */
@@ -182,10 +193,10 @@ a {
   }
   
   .service-item {
-    height: 200px;
+    height: 250px;
     text-align: center;
     padding: 20px;
-    background-color: #f0f0f0;
+    background-color: #f6f1de;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
@@ -194,6 +205,7 @@ a {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Añade una sombra más pronunciada */
   }
   .service-icon {
+    margin-top: 50px;
     font-size: 36px;
     margin-bottom: 10px;
   }

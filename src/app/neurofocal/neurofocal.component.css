@@ -56,7 +56,6 @@
     display: inline-block; /* Hace que la imagen se muestre en línea */
     border-radius: 1rem;
     margin: 10px; /* Espacio entre las imágenes */
-    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
     box-sizing: border-box; /* Incluye el padding y el borde en el ancho y alto total */
     vertical-align: top; /* Alinea las imágenes en la parte superior */
   }
@@ -96,7 +95,6 @@
       display: inline-block; /* Hace que la imagen se muestre en línea */
       border-radius: 1rem;
       margin: 10px; /* Espacio entre las imágenes */
-      box-shadow: 0 10px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
       box-sizing: border-box; /* Incluye el padding y el borde en el ancho y alto total */
       vertical-align: top; /* Alinea las imágenes en la parte superior */
   }
